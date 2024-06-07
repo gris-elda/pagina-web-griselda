@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*background: pink;*/
+}
+
+body{
+	font-family: sans-serif; arial; 
+	font-size: 16px;
+	background: #f6d1de;
+}
+
+.contenedor{
+	width: 1000px;
+	margin: 20px auto;
+
+}
+
+.contenedor header h1{
+	color: #ffeae8;
+	background: #8e4f4b;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+header{
+	background: #fff0f5;
+}
+header nav{
+	width: 100%
+
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+}
+header nav ul li{
+	float: left;
+	list-style: none;
+}
+header nav ul li a{
+	text-decoration: none;/*eliminar subrayado*/
+	display: inline-block;/*muestra como bloques*/
+	padding: 15px 20px;
+	color: #2e1633;
+
+}
+header nav ul li a:hover{
+	background: #c999af;
+	color:#ffffff;
+}
+
+.main{
+	width: 680px;
+	background: #f8edeb;
+	float: left;
+}
+ .main .imagen{
+ 	width: 100%;
+
+ }
+ .main .imagen img{
+ 	width: 100%;
+ }
+
+ .main .post{
+ 	padding: 40px;
+
+ }
+
+ .main .post h2{
+ 	color: #2e1633;
+ 	margin-bottom: 20px;
+ }
+
+ .main .post p{
+ 	line-height: 20px;
+ 	margin-bottom: 12px;
+ 	color:#2e1633;
+ }
+
+ aside{
+ 	width: 280px;
+ 	padding: 20px;
+ 	background: #e7baba;
+ 	color:#2e1633;
+ 	overflow: hidden;
+ }
+ aside .widget{
+ 	margin-bottom: 20px; 
+ }
+
+ aside .widget .titulo{
+ 	color: #2e1633;
+ 	border-bottom:5px solid #896262;
+ 	margin-bottom:50px;
+
+ }
+
+ aside .widget ul{
+ 	list-style: none;
+ }
+
+ aside .widget ul li{
+ 	border-bottom: 1px solid #896262;
+ 	padding: 15px 5px;
+ }
+ aside .widget ul li a{
+ 	text-decoration:none;
+ 	color: #2e1633;
+ 	display: inline-block;
+ }
+
+ aside .widget ul li a:hover{
+ 	color:#e7baba ;
+ 	background: #2e1633;
+ }
+
+ aside .widget p{
+ 	line-height: 27px;
+ 	text-align: justify;
+ }
+
+ footer{
+ 	width: 1000px;
+ 	background: #8e4f4b;
+ 	color: #ffeae8;
+ 	padding: 40px;
+ 	text-align: center;
+ 	overflow: hidden;
+
+
+ }
